@@ -1,0 +1,68 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type BusavecsiegeEntity {
+  id: ID!
+  immatriculation: String!
+  nombresiege_sanschauffeur: Float!
+  placeoccupe: Float!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type BilletEntity {
+  id: ID!
+  identificationbillet: String!
+  isreserve: Boolean!
+  isconsome: Boolean!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type Query {
+  findAllBillet(skip: Int! = 0, take: Int! = 25): [BilletEntity!]!
+  countBillet: Float!
+  findAllBusavecsiege(skip: Int! = 0, take: Int! = 25): [BusavecsiegeEntity!]!
+  countBusavecsiege: Float!
+}
+
+type Mutation {
+  createBillet(createBilletInput: CreateBilletInput!): BilletEntity!
+  updateBillet(updateBilletInput: UpdateBilletInput!): BilletEntity!
+  deleteBillet(id: String!): BilletEntity!
+  createBusavecsiege(createBusavecsiegeInput: CreateBusavecsiegeInput!): BusavecsiegeEntity!
+  updateBusavecsiege(updateBusavecsiegeInput: UpdateBusavecsiegeInput!): BusavecsiegeEntity!
+  deleteBusavecsiege(id: String!): BusavecsiegeEntity!
+}
+
+input CreateBilletInput {
+  identificationbillet: String!
+  isreserve: Boolean!
+  isconsome: Boolean!
+}
+
+input UpdateBilletInput {
+  id: String!
+  identificationbillet: String!
+  isreserve: Boolean!
+  isconsome: Boolean!
+}
+
+input CreateBusavecsiegeInput {
+  immatriculation: String!
+  nombresiege_sanschauffeur: Float!
+  placeoccupe: Float!
+}
+
+input UpdateBusavecsiegeInput {
+  id: String!
+  immatriculation: String!
+  nombresiege_sanschauffeur: Float!
+  placeoccupe: Float!
+}

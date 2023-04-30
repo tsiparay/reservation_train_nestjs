@@ -1,0 +1,24 @@
+{
+  "name": "@mario-nest-graphql-mongodb-react/mono",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Projet test et aussi initialisation pour mes futurs missions qui ont besoins de ces technologies ensembles. On verra.",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  },
+  "scripts": {
+    "build:app": "yarn workspace @mario-nest-graphql-mongodb-react/frontend build",
+    "build:api": "yarn workspace @mario-nest-graphql-mongodb-react/backend build",
+    "start:app": "yarn workspace @mario-nest-graphql-mongodb-react/frontend start",
+    "start:api": "yarn workspace @mario-nest-graphql-mongodb-react/backend start",
+    "start:api:dev": "yarn workspace @mario-nest-graphql-mongodb-react/backend start:dev"
+  },
+  "keywords": [
+
+  ],
+  "author": "bobscarterscarter@gmail.com",
+  "license": "MIT"
+}
