@@ -33,3 +33,28 @@ export class BilletModel {
   isconsome: boolean;
 }
 export const BilletSchema = SchemaFactory.createForClass(BilletModel);
+
+//******************************************************************
+
+export type UtilisateurDocument = UtilisateurModel & Document
+@Schema({timestamps: true})
+export class UtilisateurModel {
+  @Prop()
+  nom: string;
+
+  @Prop()
+  prenom: string;
+
+  @Prop()
+  email: string;
+
+  @Prop()
+  addresse: string;
+
+  @Prop()
+  status: boolean;
+
+  @Prop()
+  password: string;
+}
+export const UtilisateurSchema = SchemaFactory.createForClass(UtilisateurModel);

@@ -16,6 +16,23 @@ A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date
 """
 scalar DateTime
 
+type UtilisateurEntity {
+  id: ID!
+  nom: String!
+  prenom: String!
+  email: String!
+  addresse: String!
+  status: Boolean!
+  password: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type LoggedUtilisateurOutput {
+  """Generated access_token"""
+  access_token: String!
+}
+
 type BilletEntity {
   id: ID!
   identificationbillet: String!
@@ -26,6 +43,8 @@ type BilletEntity {
 }
 
 type Query {
+  findAllUtilisateur(skip: Int! = 0, take: Int! = 25): [UtilisateurEntity!]!
+  countUtilisateur: Float!
   findAllBillet(skip: Int! = 0, take: Int! = 25): [BilletEntity!]!
   countBillet: Float!
   findAllBusavecsiege(skip: Int! = 0, take: Int! = 25): [BusavecsiegeEntity!]!
@@ -33,12 +52,43 @@ type Query {
 }
 
 type Mutation {
+  loginUtilisateur(loginUtilisateurInput: LoginUtilisateurInput!): LoggedUtilisateurOutput!
+  createUtilisateur(createUtilisateurInput: CreateUtilisateurInput!): UtilisateurEntity!
+  updateUtilisateur(updateUtilisateurInput: UpdateUtilisateurInput!): UtilisateurEntity!
+  deleteUtilisateur(id: String!): UtilisateurEntity!
   createBillet(createBilletInput: CreateBilletInput!): BilletEntity!
   updateBillet(updateBilletInput: UpdateBilletInput!): BilletEntity!
   deleteBillet(id: String!): BilletEntity!
   createBusavecsiege(createBusavecsiegeInput: CreateBusavecsiegeInput!): BusavecsiegeEntity!
   updateBusavecsiege(updateBusavecsiegeInput: UpdateBusavecsiegeInput!): BusavecsiegeEntity!
   deleteBusavecsiege(id: String!): BusavecsiegeEntity!
+}
+
+input LoginUtilisateurInput {
+  """email """
+  email: String!
+
+  """password """
+  password: String!
+}
+
+input CreateUtilisateurInput {
+  nom: String!
+  prenom: String!
+  email: String!
+  addresse: String!
+  status: Boolean!
+  password: String!
+}
+
+input UpdateUtilisateurInput {
+  id: String!
+  nom: String!
+  prenom: String!
+  email: String!
+  addresse: String!
+  status: Boolean!
+  password: String!
 }
 
 input CreateBilletInput {

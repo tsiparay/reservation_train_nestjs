@@ -1,20 +1,20 @@
 import * as React from "react";
 import { gql, useQuery } from '@apollo/client'
-import Users from './Users'
+import Billet from './Billet'
 import Pagination from './Pagination'
 import './App.css'
 
-const GET_USERS_COUNT = gql`
-  query GetUsersCount {
+const GET_BILLET_COUNT = gql`
+  query findAllBillet {
     count
   }
 `;
 
 function App() {
-  const { data } = useQuery<{ count: number }>(GET_USERS_COUNT);
+  const { data } = useQuery<{ count: number }>(GET_BILLET_COUNT);
   return (
-    <div className="App">
-      <Pagination count={data?.count || 0} render={(<Users />) as any} />
+    <div className="App"  style={{marginTop:30}}>
+      <Pagination count={data?.count || 0} render={(<Billet />) as any} />
     </div>
   )
 }

@@ -43,17 +43,6 @@ export class BilletService {
     return billets
   }
 
-  //
-  // getById(_id: MongooseSchema.Types.ObjectId) {
-  //   return this.billetModel.findById(_id).exec();
-  // }
-  //
-  // list(filtersInput: FiltersInput) {
-  //   return this.billetModel.find({...filtersInput}).exec();
-  // }
-  //
-
-
 
 }
 

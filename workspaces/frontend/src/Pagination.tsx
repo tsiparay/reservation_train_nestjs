@@ -11,11 +11,11 @@ const Pagination = ({
   render,
 }: {
   count: number
-  render: FunctionComponentElement<{ skip: number; amountToFetch: number }>
+  render: FunctionComponentElement<{ skip: number; take: number }>
 }) => {
   const [step, setStep] = useState(0);
-  const [amountToFetch, setAmountToFetch] = useState(10);
-  const steps = count ? Math.ceil(count / amountToFetch) : 0;
+  const [take, setAmountToFetch] = useState(10);
+  const steps = count ? Math.ceil(count / take) : 0;
   const renderedSteps = new Array(steps).fill(0).map((num, index) => (
     <button
       data-is-active={index === step}
@@ -28,8 +28,8 @@ const Pagination = ({
   ));
 
   const renderWithProps = cloneElement(render, {
-    skip: step * amountToFetch,
-    amountToFetch,
+    skip: step * take,
+    take,
   });
 
   return (
@@ -37,8 +37,8 @@ const Pagination = ({
       {renderWithProps}
       <select
         name="amount to fetch"
-        id="amountToFetch"
-        value={amountToFetch}
+        id="take"
+        value={take}
         onChange={(e: ChangeEvent<HTMLSelectElement>) => {
           const newAmount = +e.target.value;
           setAmountToFetch(newAmount);
@@ -60,7 +60,7 @@ const Pagination = ({
       {renderedSteps}
       <button
         type="button"
-        disabled={(step + 1) * amountToFetch > count}
+        disabled={(step + 1) * take > count}
         onClick={() => setStep((prevstep) => prevstep + 1)}
       >
         {'>'}

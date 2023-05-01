@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a550532-4500-4f0f-8901-802f96800ca1" name="Default Changelist" comment="" />
+    <list default="true" id="8a550532-4500-4f0f-8901-802f96800ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/workspaces/backend/src/utilisateur/authentication.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/create-utilisateur.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/fetch-utilisateur.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/update-utilisateur.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaces/backend/src/utilisateur/entities/utilisateur.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaces/backend/src/utilisateur/jwt-auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/backend/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/backend/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/backend/src/mongoose/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/backend/src/mongoose/schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/frontend/src/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/frontend/src/Pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspaces/frontend/src/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/workspaces/frontend/src/Billet.tsx" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,88 +30,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/frontend/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.resolver.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="578">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/frontend/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/frontend/public/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/backend/tsconfig.build.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/backend/.eslintrc.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/backend/.env.example">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/backend/.env">
+        <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/frontend/.env">
+        <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/dto/fetch-billet.input.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workspaces/frontend/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="51">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspaces/frontend/public/robots.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/Billet.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/jwt.strategy.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.resolver.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-505">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspaces/backend/src/busavecsiege/busavecsiege.resolver.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-end-line="41" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/Pagination.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@graphql-nestjs-pagination</find>
-      <find>schema</find>
       <find>save</find>
       <find>create</find>
       <find>UserModel</find>
@@ -104,38 +159,63 @@
       <find>numberOfUsers</find>
       <find>billets</find>
       <find>billet</find>
-      <find>Billet</find>
       <find>bi</find>
-      <find>user</find>
       <find>pagination</find>
+      <find>Busavecsiege</find>
+      <find>busavecsieges</find>
+      <find>busavecsiege</find>
+      <find>BusavecsiegeModule</find>
+      <find>proce</find>
+      <find>JWT_MODULE_OPTIONS</find>
+      <find>config</find>
+      <find>delete</find>
+      <find>JwtService</find>
+      <find>jwtTokenService</find>
+      <find>GetUsersCount</find>
+      <find>Users</find>
+      <find>users</find>
+      <find>us</find>
+      <find>Us</find>
+      <find>amountToFetch</find>
+      <find>Billet</find>
+      <find>user</find>
+      <find>proc</find>
     </findStrings>
     <replaceStrings>
       <replace>@graphql-nestjs-pagination</replace>
       <replace>@mario-nest-graphql-mongodb-react</replace>
       <replace>busavecsieges</replace>
       <replace>busavecsiege</replace>
+      <replace>Utilisateur</replace>
+      <replace>utilisateurs</replace>
+      <replace>utilisateur</replace>
       <replace>Busavecsiege</replace>
+      <replace>Billet</replace>
+      <replace>billet</replace>
+      <replace>take</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend</dir>
-      <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src</dir>
       <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src\busavecsiege</dir>
       <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1</dir>
+      <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src\utilisateur</dir>
+      <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src\billet</dir>
+      <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces</dir>
+      <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\frontend\src</dir>
+      <dir>C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/workspaces/backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/workspaces/backend/.env" />
         <option value="$PROJECT_DIR$/workspaces/frontend/package.json" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/users/entities/user.entity.ts" />
         <option value="$PROJECT_DIR$/workspaces/frontend/.env.example" />
         <option value="$PROJECT_DIR$/workspaces/frontend/.env" />
         <option value="$PROJECT_DIR$/workspaces/frontend/src/index.tsx" />
-        <option value="$PROJECT_DIR$/workspaces/frontend/src/App.tsx" />
         <option value="$PROJECT_DIR$/workspaces/frontend/src/Pagination.tsx" />
         <option value="$PROJECT_DIR$/workspaces/frontend/src/Users.tsx" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/main.ts" />
@@ -148,22 +228,36 @@
         <option value="$PROJECT_DIR$/workspaces/backend/src/billet/dto/update-billet.input.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/users/users.resolver.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/billet/dto/create-billet.input.ts" />
-        <option value="$PROJECT_DIR$/workspaces/backend/src/billet/billet.resolver.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/billet/entities/billet.entity.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/package.json" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/utils/generateBillets.ts" />
-        <option value="$PROJECT_DIR$/workspaces/backend/src/mongoose/schema.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/busavecsiege/dto/create-billet.input.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/busavecsiege/dto/update-busavecsiege.input.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/busavecsiege/dto/create-busavecsiege.input.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/busavecsiege/entities/billet.entity.ts" />
         <option value="$PROJECT_DIR$/workspaces/backend/src/busavecsiege/busavecsiege.service.ts" />
-        <option value="$PROJECT_DIR$/workspaces/backend/src/billet/billet.service.ts" />
-        <option value="$PROJECT_DIR$/workspaces/backend/src/app.module.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/workspaces/frontend/public/index.html" />
         <option value="$PROJECT_DIR$/workspaces/frontend/public/manifest.json" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/create-utilisateur.input.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/update-utilisateur.input.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/mongoose/schema.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/entities/utilisateur.entity.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/.env" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/authentication.service.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.module.ts" />
+        <option value="$PROJECT_DIR$/workspaces/frontend/src/Billet.tsx" />
+        <option value="$PROJECT_DIR$/workspaces/frontend/src/App.tsx" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/logged-utilisateur.output.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/login-utilisateur.input.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.service.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/billet/billet.service.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.resolver.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/busavecsiege/busavecsiege.resolver.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/utilisateur/jwt.strategy.service.ts" />
+        <option value="$PROJECT_DIR$/workspaces/backend/src/billet/billet.resolver.ts" />
       </list>
     </option>
   </component>
@@ -200,14 +294,16 @@
               <item name="NESTJS1" type="b2602c69:ProjectViewProjectNode" />
               <item name="NESTJS1" type="462c0819:PsiDirectoryNode" />
               <item name="workspaces" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NESTJS1" type="b2602c69:ProjectViewProjectNode" />
               <item name="NESTJS1" type="462c0819:PsiDirectoryNode" />
               <item name="workspaces" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="billet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,8 +313,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspaces/backend/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -230,11 +327,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src\utilisateur" />
+      <recent name="C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src\utilisateur\dto" />
       <recent name="C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src" />
       <recent name="C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src\utils" />
       <recent name="C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend\src\billet\dto" />
-      <recent name="C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\frontend" />
-      <recent name="C:\ISAMBOLANA\COLLABORATIONCAPITAL\NESTJS1\workspaces\backend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,18 +358,19 @@
       <updated>1682670482641</updated>
       <workItem from="1682670488928" duration="38289000" />
       <workItem from="1682814008623" duration="10078000" />
-      <workItem from="1682856943228" duration="12557000" />
+      <workItem from="1682856943228" duration="33887000" />
+      <workItem from="1682933804177" duration="4076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60924000" />
+    <option name="totallyTimeSpent" value="86330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24404761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24404761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -287,7 +385,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3432836" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35986733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,178 +395,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/Pagination.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/react-app-env.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/Users.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/users/users.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/node_modules/mongoose/types/document.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/users/dto/fetch-users.input.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/users/entities/user.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/users/users.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/dist/src/users/users.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/nest.config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/node_modules/mongoose/types/models.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/users/users.resolver.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/dto/create-billet.input.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/dto/fetch-billet.input.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/dto/update-billet.input.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.resolver.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utils/seedDatabase.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/entities/billet.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workspaces/backend/node_modules/dotenv/config.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -488,16 +414,6 @@
           <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/mongoose/schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,35 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/busavecsiege/busavecsiege.resolver.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workspaces/backend/src/busavecsiege/entities/busavecsiege.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -590,31 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workspaces/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/frontend/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -653,13 +519,6 @@
     <entry file="file://$PROJECT_DIR$/workspaces/backend/.env.example">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/workspaces/backend/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workspaces/frontend/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -669,8 +528,249 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workspaces/frontend/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="218">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/entities/utilisateur.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/mongoose/schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/fetch-utilisateur.input.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/create-utilisateur.input.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="19" selection-start-line="5" selection-start-column="2" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/update-utilisateur.input.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/node_modules/@nestjs/config/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/nest.config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/login-utilisateur.input.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/frontend/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/jwt-auth.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/dto/logged-utilisateur.output.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/authentication.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="114" selection-start-line="36" selection-start-column="114" selection-end-line="36" selection-end-column="114" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/dto/fetch-billet.input.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/Pagination.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/Billet.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/frontend/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/utilisateur.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/busavecsiege/busavecsiege.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/utilisateur/jwt.strategy.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/backend/src/billet/billet.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
